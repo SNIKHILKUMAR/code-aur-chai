@@ -1,10 +1,9 @@
-import java.util.*;
+import java.util.Scanner;
 
-
-public class sum {
+public class multiply {
     public static int calculateSum(int a,int b){
-        int sum=a+b;
-        return sum;
+        
+        return a*b;
      }
 
     public static void main(String[] args) {
@@ -20,8 +19,8 @@ public class sum {
 
 
        
-       int sum= calculateSum(a, b);
-       System.out.println("sum of two no. is "+sum);
+       
+       System.out.println("sum of two no. is "+calculateSum(a, b));
         
 
        
@@ -30,3 +29,6 @@ public class sum {
 
     
 }
+
+    
+
